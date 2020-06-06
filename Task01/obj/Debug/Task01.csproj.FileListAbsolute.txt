@@ -1,0 +1,6 @@
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\obj\Debug\Task01.csprojAssemblyReference.cache
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\obj\Debug\Task01.csproj.CoreCompileInputs.cache
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\bin\Debug\Task01.exe
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\bin\Debug\Task01.pdb
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\obj\Debug\Task01.exe
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task01\obj\Debug\Task01.pdb

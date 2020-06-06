@@ -1,0 +1,9 @@
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\bin\Debug\Task03.exe
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\bin\Debug\Task03.pdb
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\obj\Debug\Task03.csprojAssemblyReference.cache
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\obj\Debug\Task03.csproj.CoreCompileInputs.cache
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\obj\Debug\Task03.exe
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\obj\Debug\Task03.pdb
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\bin\Debug\Utilities.dll
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\bin\Debug\Utilities.pdb
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\Task03\obj\Debug\Task03.csproj.CopyComplete

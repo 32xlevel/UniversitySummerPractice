@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{4C058E47-1087-4F2F-AD75-1B5D4D8F3981}</ProjectGuid>
+        <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>AllTests</RootNamespace>
+        <AssemblyName>AllTests</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+            <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Tests.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Task03\Task03.csproj">
+        <Project>{d44f1979-44b9-46c1-822e-505e554cf1f9}</Project>
+        <Name>Task03</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task04\Task04.csproj">
+        <Project>{63a22d11-df72-4d11-a7c7-b51a3327c1b3}</Project>
+        <Name>Task04</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task05\Task05.csproj">
+        <Project>{76647c6b-381c-437f-bbf7-c5db3a141f15}</Project>
+        <Name>Task05</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task06\Task06.csproj">
+        <Project>{1ae48958-a62f-4e4f-b0ec-f0f2291dd6e1}</Project>
+        <Name>Task06</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task07\Task07.csproj">
+        <Project>{9f3aa333-c7f6-43d2-b4df-af4957f30834}</Project>
+        <Name>Task07</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task08\Task08.csproj">
+        <Project>{669d0482-dcbb-44b1-9e88-b138a14ed6b8}</Project>
+        <Name>Task08</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task09\Task09.csproj">
+        <Project>{6bf0235d-287a-48b9-a223-1ebec0b9a042}</Project>
+        <Name>Task09</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Task11\Task11.csproj">
+        <Project>{aac992b9-966d-4cbe-aaaa-a73e91149cd6}</Project>
+        <Name>Task11</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Utilities\Utilities.csproj">
+        <Project>{b609210f-ad00-44c2-ab6d-28a3dcb10ddc}</Project>
+        <Name>Utilities</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
