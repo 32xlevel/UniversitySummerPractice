@@ -78,6 +78,10 @@
         <Project>{aac992b9-966d-4cbe-aaaa-a73e91149cd6}</Project>
         <Name>Task11</Name>
       </ProjectReference>
+      <ProjectReference Include="..\Task12\Task12.csproj">
+        <Project>{bada4de3-3ed5-4f5b-af3f-9974c4d0e3f6}</Project>
+        <Name>Task12</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Utilities\Utilities.csproj">
         <Project>{b609210f-ad00-44c2-ab6d-28a3dcb10ddc}</Project>
         <Name>Utilities</Name>

@@ -25,3 +25,5 @@ C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task07.
 C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task07.pdb
 C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task08.exe
 C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task08.pdb
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task12.exe
+C:\Users\xaysd\RiderProjects\UniversitySummerPractice\AllTests\bin\Debug\Task12.pdb

@@ -1,7 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b416c56b_002D2ed1_002D4d57_002Daeea_002D78bff30924c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SearchFirstChainWithKDepthTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d8d4799_002D276d_002D4725_002Da8c1_002D87e0b666f213/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SortSimpleChoiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SearchFirstChainWithKDepthTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.HuffmanExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SortSimpleChoiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SortWithBinaryTreeTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

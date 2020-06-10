@@ -62,7 +62,7 @@ namespace Task12
         /*
          * https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D1%81_%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E_%D0%B4%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0
          */
-        private static SortResult SortWithBinaryTree(int[] array)
+        public static SortResult SortWithBinaryTree(int[] array)
         {
             if (array == null) throw new NullReferenceException();
             if (array.Length < 2) return new SortResult(array, 0, 0);
@@ -78,7 +78,7 @@ namespace Task12
 
         // https://prog-cpp.ru/sort-select/
         // https://www.intuit.ru/studies/higher_education/3406/courses/504/lecture/11435?page=2
-        private static SortResult SortSimpleChoice(int[] array)
+        public static SortResult SortSimpleChoice(int[] array)
         {
             if (array == null) throw new NullReferenceException();
             if (array.Length < 2) return new SortResult(array, 0, 0);
@@ -105,7 +105,7 @@ namespace Task12
             return new SortResult(array, countComparison, countExchange);
         }
 
-        private static void PrintResults(SortedTypes type, SortResult result)
+        public static void PrintResults(SortedTypes type, SortResult result)
         {
             if (type.Equals(SortedTypes.SimpleChoice)) Console.WriteLine("Сортировка простым выбором:");
             else if (type.Equals(SortedTypes.WithBinaryTree)) Console.WriteLine("Сортировка бинарным деревом:");
@@ -115,17 +115,7 @@ namespace Task12
             Console.WriteLine($"Количество сравнений: {result.CountComparison}\nКоличество пересылок: {result.CountExchange}");
         }
 
-        private static void PrintArray(int[] array)
-        {
-            foreach (var item in array)
-            {
-                Console.Write($"{item} ");
-            }
-
-            Console.WriteLine();
-        }
-
-        private class SortResult
+        public class SortResult
         {
             public readonly int[] Array;
             public readonly int CountComparison; // Количество сравнений
@@ -139,10 +129,20 @@ namespace Task12
             }
         }
         
-        private enum SortedTypes
+        public enum SortedTypes
         {
             SimpleChoice,
             WithBinaryTree
+        }
+        
+        private static void PrintArray(int[] array)
+        {
+            foreach (var item in array)
+            {
+                Console.Write($"{item} ");
+            }
+
+            Console.WriteLine();
         }
     }
 }

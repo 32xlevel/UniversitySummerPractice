@@ -4,6 +4,7 @@ using NUnit.Framework;
 using Task08;
 using Task09;
 using Program = Task03.Program;
+// ReSharper disable CommentTypo
 
 namespace AllTests
 {
@@ -160,6 +161,7 @@ namespace AllTests
             Assert.Throws<ArgumentException>(() => Task05.Program.Max(matrix2));
             Assert.Throws<ArgumentException>(() => Task05.Program.Max(matrix3));
             Assert.Throws<ArgumentException>(() => Task05.Program.Max(nonQuadroMatrix));
+            Assert.Throws<ArgumentException>(() => Task05.Program.Max(new double[][] {})); // Пустая матрица
         }
         #endregion
 
@@ -401,6 +403,42 @@ namespace AllTests
             Assert.Throws<ArgumentException>(() => Task11.Program.Decrypt("123"));
             Assert.Throws<ArgumentException>(() => Task11.Program.Decrypt("11100"));
             Assert.Throws<ArgumentException>(() => Task11.Program.Decrypt("111000115"));
+        }
+
+        #endregion
+
+        #region Task12
+
+        [Test]
+        public void SortSimpleChoiceTest()
+        {
+            var emptyArray = new int[] { };
+            var singleArray = new[] { 5 };
+            var array1 = new[] {7, 0, 3, -2, 6, 9, -5, 8, 1, 4}; 
+            var array2 = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            var array3 = new[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+            
+            Assert.AreEqual(emptyArray, Task12.Program.SortSimpleChoice(emptyArray).Array);
+            Assert.AreEqual(singleArray, Task12.Program.SortSimpleChoice(singleArray).Array);
+            Assert.AreEqual(new [] {-5, -2, 0, 1, 3, 4, 6, 7, 8, 9}, Task12.Program.SortSimpleChoice(array1).Array);
+            Assert.AreEqual(new [] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, Task12.Program.SortSimpleChoice(array2).Array);
+            Assert.AreEqual(new [] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, Task12.Program.SortSimpleChoice(array3).Array);
+        }
+
+        [Test]
+        public void SortWithBinaryTreeTest()
+        {
+            var emptyArray = new int[] { };
+            var singleArray = new[] { 5 };
+            var array1 = new[] {7, 0, 3, -2, 6, 9, -5, 8, 1, 4}; 
+            var array2 = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            var array3 = new[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+            
+            Assert.AreEqual(emptyArray, Task12.Program.SortWithBinaryTree(emptyArray).Array);
+            Assert.AreEqual(singleArray, Task12.Program.SortWithBinaryTree(singleArray).Array);
+            Assert.AreEqual(new [] {-5, -2, 0, 1, 3, 4, 6, 7, 8, 9}, Task12.Program.SortWithBinaryTree(array1).Array);
+            Assert.AreEqual(new [] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, Task12.Program.SortWithBinaryTree(array2).Array);
+            Assert.AreEqual(new [] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, Task12.Program.SortWithBinaryTree(array3).Array);
         }
 
         #endregion
