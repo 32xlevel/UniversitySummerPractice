@@ -1,8 +1,20 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d8d4799_002D276d_002D4725_002Da8c1_002D87e0b666f213/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SortSimpleChoiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0b8e2ca5_002D90ef_002D4251_002D92b2_002Df6139a3ba5f6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FactorialTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.FactorialTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.GetAtTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.GetAtExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.RemoveAtTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.IncorrectDecryptTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SortSimpleChoiceTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SortWithBinaryTreeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SearchFirstChainWithKDepthExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.SearchFirstChainWithKDepthTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.HuffmanTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.HuffmanExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.MaxExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.MaxTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.CalculateInfiniteSumTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4C058E47-1087-4F2F-AD75-1B5D4D8F3981::.NETFramework,Version=v4.8::AllTests.Tests.IsInAreaTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	</wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -33,11 +33,10 @@ namespace AllTests
         [Test]
         public void CalculateInfiniteSumTest()
         {
-            Assert.AreEqual(0.155555555555556, Task04.Program.CalculateInfiniteSum(0.1));
-            Assert.AreEqual(0.136507936507937, Task04.Program.CalculateInfiniteSum(0.01));
-            Assert.AreEqual(0.135379188712522, Task04.Program.CalculateInfiniteSum(0.001));
-            Assert.AreEqual(0.135327881994549, Task04.Program.CalculateInfiniteSum(0.0001));
-            Assert.AreEqual(0.135336433114211, Task04.Program.CalculateInfiniteSum(0.00001));
+            Assert.AreEqual(0.15555555555555561d, Task04.Program.CalculateInfiniteSum(0.1));
+            Assert.AreEqual(0.13650793650793658d, Task04.Program.CalculateInfiniteSum(0.01));
+            Assert.AreEqual(0.13537918871252214d, Task04.Program.CalculateInfiniteSum(0.001));
+            Assert.AreEqual(0.13532788199454876d, Task04.Program.CalculateInfiniteSum(0.0001));
         }
 
         [Test]
@@ -52,9 +51,9 @@ namespace AllTests
         [Test]
         public void FactorialTest()
         {
-            Assert.AreEqual(1, Task04.Program.CalculateInfiniteSum(0));
-            Assert.AreEqual(1, Task04.Program.CalculateInfiniteSum(1));
-            Assert.AreEqual(120, Task04.Program.CalculateInfiniteSum(5));
+            Assert.AreEqual(1, Task04.Program.Factorial(0));
+            Assert.AreEqual(1, Task04.Program.Factorial(1));
+            Assert.AreEqual(120, Task04.Program.Factorial(5));
         }
 
         [Test]
@@ -353,7 +352,18 @@ namespace AllTests
             Assert.AreEqual(15, node.GetAt(0).Data);
             Assert.AreEqual(-10, node.GetAt(node.Length - 1).Data);
             Assert.AreEqual(0, node.GetAt(2).Data);
+        }
 
+        [Test]
+        public void GetAtExceptionTest()
+        {
+            var node = new Node();
+            node.Data = -20;
+            node = node.Add(-10);
+            node = node.Add(10);
+            node = node.Add(0);
+            node = node.Add(15);
+            
             Assert.Throws<ArgumentException>(() => node.GetAt(10));
             Assert.Throws<ArgumentException>(() => node.GetAt(-1));
         }
